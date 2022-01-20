@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url("../../public/image/background.jpg");
+    background-size: 100% 100%;
+  }
+
+.pizza{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.product-items{
+    width: 260px;
+    height: 370px;
+    background-color: rgba(247, 209, 154, 0.986);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px, 0, 0, 0; /* Narinein harcnel!*/
+    
+}
+.img-pizza{
+    width: 200px;
+    height: 200px;
+}
+
+hr {
+    border: 1px solid black;
+    width: 50%;
+    margin-left: 65px;
+  }
+
+.product1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.product2{
+    margin-left: 70px;
+}
+
+.product3{
+    margin-left: 70px;
+}
+

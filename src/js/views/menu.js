@@ -1,27 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/css/style.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container" >
-        <nav class= "header"></nav>
-        <div class="pizza">
+export const renderMenuPage = () => {
+    const wrapper = `<nav class="header"></nav>
+    <div class="pizza">
         <div class="product-items">
-            <div class= "product1"> 
-                <img class= "img-pizza" src="../public/image/pizza1.png" alt="">
+            <div class="product1">
+                <img class="img-pizza" src="./image/pizza1.png" alt="">
             </div>
             <hr>
-            <div class= "product2">
+            <div class="product2">
                 Cheese Pizza <br>
                 1pcs: ֏350
             </div>
             <hr>
-            <div class= "product3">
+            <div class="product3">
                 <h3>Ingredients</h3>
                 <ol>
                     <li>chesse</li>
@@ -29,18 +19,18 @@
                     <li>pepper</li>
                 </ol>
             </div>
-         </div>
+        </div>
         <div class="product-items">
-            <div class= "product1"> 
-                <img class= "img-pizza" src="../public/image/pizza2.png" alt="">
+            <div class="product1">
+                <img class="img-pizza" src="./image/pizza2.png" alt="">
             </div>
             <hr>
-            <div class= "product2">
+            <div class="product2">
                 Cheese Pizza <br>
                 1pcs: ֏350
             </div>
             <hr>
-            <div class= "product3">
+            <div class="product3">
                 <h3>Ingredients</h3>
                 <ol>
                     <li>chesse</li>
@@ -48,18 +38,18 @@
                     <li>pepper</li>
                 </ol>
             </div>
-         </div>
+        </div>
         <div class="product-items">
-            <div class= "product1"> 
-                <img class= "img-pizza" src="../public/image/pizza3.png" alt="">
+            <div class="product1">
+                <img class="img-pizza" src="./image/pizza3.png" alt="">
             </div>
             <hr>
-            <div class= "product2">
+            <div class="product2">
                 Cheese Pizza <br>
                 1pcs: ֏350
             </div>
             <hr>
-            <div class= "product3">
+            <div class="product3">
                 <h3>Ingredients</h3>
                 <ol>
                     <li>chesse</li>
@@ -67,8 +57,7 @@
                     <li>pepper</li>
                 </ol>
             </div>
-         </div>
-    </div>
-</div>
-</body>
-</html>
+        </div>
+    </div> `
+    document.querySelector(".container").innerHTML += wrapper;
+}

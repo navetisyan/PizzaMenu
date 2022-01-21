@@ -14,7 +14,7 @@ export const renderFirstPage = () => {
                 <option value="8">8</option>
                 <option value="9">9</option>
             </select><br>
-            <button id="btn">Ամրագրել</button>
+            <button class="btn">Ամրագրել</button>
     `
 
     document.querySelector(".container1").innerHTML += wrapper;

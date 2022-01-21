@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* list-style: none;  */
   }
  
    .container1{
@@ -12,8 +11,74 @@
     background-size: 100% 100%;
     display: flex; 
     overflow-x: hidden;
+    flex-direction: column;
   }
-  .
+  #text{
+    color:aliceblue;
+  }
+  .text{
+    margin-top: 100px;
+    margin-left: 700px;
+    margin-bottom: 100px;
+    letter-spacing: 2px;
+    font-size: 25px;
+  }
+  .main{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 500px;
+  }
+  .pizzaMain{
+    flex-direction: column;
+  }
+  .pizzaGin{
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+  .ingr{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .ingText{
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  .whatIn{
+    letter-spacing: 2px;
+    font-size: 25px;
+  }
+  .count{
+    margin-top: 30px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-top: 30px;
+  }
+  .fut{
+    margin-top: 70px;
+    display: flex;
+  }
+  button{
+    background-color: #4CAF50; 
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    justify-content: flex-end;
+  }
+  
+  
+  
 
 
  

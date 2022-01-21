@@ -1,4 +1,5 @@
-import { renderMenuPage } from "./js/views/menu";
+import { renderFirstPage } from "./js/views/firstPage";
 import router from "./js/routing";
-//  renderMenuPage();
+
+renderFirstPage();
 

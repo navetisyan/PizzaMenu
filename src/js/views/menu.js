@@ -1,17 +1,18 @@
 export const renderMenuPage = () => {
     const wrapper = `<nav class="header"></nav>
+    <div class="pizza-container">
     <div class="pizza">
         <div class="product-items">
-            <div class="product1">
+            <div class="product-img">
                 <img class="img-pizza" src="./image/pizza1.png" alt="">
             </div>
             <hr>
-            <div class="product2">
+            <div class="product-price">
                 Cheese Pizza <br>
                 1pcs: ֏350
             </div>
             <hr>
-            <div class="product3">
+            <div class="product-ingredient">
                 <h3>Ingredients</h3>
                 <ol>
                     <li>chesse</li>
@@ -21,16 +22,16 @@ export const renderMenuPage = () => {
             </div>
         </div>
         <div class="product-items">
-            <div class="product1">
+            <div class="product-img">
                 <img class="img-pizza" src="./image/pizza2.png" alt="">
             </div>
             <hr>
-            <div class="product2">
+            <div class="product-price">
                 Cheese Pizza <br>
                 1pcs: ֏350
             </div>
             <hr>
-            <div class="product3">
+            <div class="product-ingredinet">
                 <h3>Ingredients</h3>
                 <ol>
                     <li>chesse</li>
@@ -40,16 +41,16 @@ export const renderMenuPage = () => {
             </div>
         </div>
         <div class="product-items">
-            <div class="product1">
+            <div class="product-img">
                 <img class="img-pizza" src="./image/pizza3.png" alt="">
             </div>
             <hr>
-            <div class="product2">
+            <div class="product-price">
                 Cheese Pizza <br>
                 1pcs: ֏350
             </div>
             <hr>
-            <div class="product3">
+            <div class="product-ingredient">
                 <h3>Ingredients</h3>
                 <ol>
                     <li>chesse</li>
@@ -58,6 +59,8 @@ export const renderMenuPage = () => {
                 </ol>
             </div>
         </div>
-    </div> `
-    document.querySelector(".container").innerHTML += wrapper;
+    </div>
+    </div>
+    `
+    document.querySelector(".container1").innerHTML += wrapper;
 }

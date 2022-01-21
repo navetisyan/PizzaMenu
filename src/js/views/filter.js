@@ -18,7 +18,7 @@ export const renderFilterPage = () => {
     <div class="cards">
         <div class="card">
             <div class="sec1">
-                <img src="../../image/pizza2" alt="" class="imgpiz">
+                <img src="./image/pizza2.png" alt="" class="imgpiz">
             </div>
             <hr class="hrst" style="border: 1px solid black;"> 
  
@@ -40,7 +40,7 @@ export const renderFilterPage = () => {
         </div>
         <div class="card">
             <div class="sec1">
-                <img src="../../image/pizza3" alt="" class="imgpiz">
+                <img src="./image/pizza3.png" alt="" class="imgpiz">
             </div>
             <hr class="hrst" style="border: 1px solid black;">
             <div class="sec2">                    

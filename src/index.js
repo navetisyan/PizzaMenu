@@ -1,5 +1,5 @@
-import { renderFirstPage } from "./js/views/firstPage";
+import { renderFilterPage  } from "./js/views/filter";
 import router from "./js/routing";
 
-renderFirstPage();
+renderFilterPage ();
 

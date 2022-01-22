@@ -1,8 +1,17 @@
 import {setCookie, getCookie} from "./localStorage"
+import{renderMenuList} from "../views/menuList"
+import{renderMenuPage} from "../views/menu"
 export const registerEventListeners = () => {
     //aystex linelu e amragrel knopkayi clic ivente
-    document.querySelector('.register').addEventListener(function(){
-        console.log('amragrel clicked');
-        setCookie(5); //orinak 5
+    document.querySelector('.btn-register').addEventListener("click", function(){
+        renderMenuList();
         })
+        // document.querySelector('.').addEventListener("click", function(){
+        // renderMenuPage();
+        // })
+}
+export const menuListEventListeners = () => {
+    document.querySelector('.food').addEventListener("click", function(){
+        renderMenuPage();
+    })
 }

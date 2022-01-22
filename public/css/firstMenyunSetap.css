@@ -25,26 +25,27 @@
     height: 40px;
     background-color: #FFCF3E;
     border-radius: 30px;
-    display: inline;
-    margin-top: 100px;
-    margin-left:40% ;
-    text-align: center;
     font-size:larger;
-    font-weight:bold
+    font-weight:bold;
+    text-align: center;
     
 }
 
-#btn{
-    width: 150px;
-    height: 35px;
-    background-color: #649A3F;
-    border-radius: 30px;
-    display: inline;
-    margin-top: 50px;
-    margin-left:45% ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-size:medium;
-    font-weight:bold
-
+.btn-register{
+   height: 50px;
+   width: 100px;
+   background-color: #649A3F;
+   text-align: center;
+   display: block;
+}
+.table-container{
+   display: flex;
+   align-items: center;
+}
+.table-child{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-left: 200%;
 }

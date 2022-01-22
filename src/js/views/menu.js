@@ -1,8 +1,8 @@
+
 export const renderMenuPage = () => {
-    const wrapper = `<nav class="header"></nav>
-    <div class="pizza">
+    const wrapper = `<div class="pizza">
     <div class="cards">
-        <div class="card">
+        <div class="card ">
             <div class="sec1">
                 <img src="./image/pizza1.png" alt="" class="imgpiz">
             </div>
@@ -64,5 +64,5 @@ export const renderMenuPage = () => {
     <footer class="filter"> <button class="knopka" id="text">Filter</button> </footer>
     </div>
     `
-    document.querySelector(".container1").innerHTML += wrapper;
+    document.querySelector(".container1").innerHTML = wrapper;
 }

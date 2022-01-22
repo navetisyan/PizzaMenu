@@ -1,12 +1,10 @@
+//import { renderFirstPage } from "./js/views/firstPage";
+//import { renderMenuList }  from "./js/views/menuList";
 import { renderFilterPage } from "./js/views/filter";
-import { renderMenuList }  from "./js/views/menuList";
 import router from "./js/routing";
-
-renderFilterPage ();
-
- 
- 
-document.querySelector(".btn").addEventListener("click",function(){
-   
-   renderMenuList(); 
-})
+//renderFirstPage();
+//document.querySelector(".btn").addEventListener("click",function(){
+   //renderMenuList();
+//})
+//import { renderMenuPage } from "./js/views/menu";
+renderFilterPage();

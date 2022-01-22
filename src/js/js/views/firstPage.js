@@ -1,3 +1,4 @@
+import { registerEventListeners } from "../helpers/eventListeners";
 export const renderFirstPage = () => {
     const wrapper = `<nav class="header"></nav> 
     
@@ -14,8 +15,9 @@ export const renderFirstPage = () => {
                 <option value="8">8</option>
                 <option value="9">9</option>
             </select><br>
-            <button class="btn">Ամրագրել</button>
+            <button class="btn register">Ամրագրել</button>
     `
 
     document.querySelector(".container1").innerHTML += wrapper;
+    registerEventListeners();
 }

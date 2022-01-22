@@ -31,12 +31,16 @@
       background-image: url(../image/color.jpg);
       color: aliceblue;
       width: 300px;
-      margin-left: 0px;
+      height: 100vh;
+      position: absolute;
+      left: 0px;
+      
       
     }
     .filter1 p{
         font-size: 30px;
         letter-spacing: 5px;
+        margin-top: 30px;
     }
    
     h2{
@@ -62,21 +66,19 @@
       margin-left: 270px;
       align-self: center; 
       gap: 90px;  
-      margin-top: 200px;
-     
-
+      margin-top: 100px;    
 
   }
+
   .card {
-    width: 260px;
-    height: 370px;
+    width: 300px;
+    height: 470px;
     background-color: rgba(247, 209, 154, 0.986);
     display: flex;
     flex-direction: column;
-    border-radius: 20px 0 0 0;   
-    
-      -webkit-clip-path: polygon(0 0, 0 100%, 100%, 100% 10%, 85% 0); 
-        clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 10%, 85% 0);
+    border-radius: 20px 0 0 0;       
+    -webkit-clip-path: polygon(0 0, 0 100%, 100%, 100% 10%, 85% 0); 
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 10%, 85% 0);
    
   }
  
@@ -87,32 +89,37 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
 }
 .sec2 {
-    /* display: flex;  */
-    /* justify-content: center; */
-    /* align-items: center; */
-    margin-top: 10px;
-    margin-left: 70px;
+
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom:30px;
+    
     
 }
 
-/* h3{
-    margin-left: 70px;
-
-} */
 .sec3 {
-    margin-top: 10px;
-    margin-left: 70px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+
+#ingtext{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 200;
 }
 
 .imgpiz {
-    width: 200px;
-    height: 90%;
-    /* margin-bottom: 20px; */
-    
+    width: 250px;
+    height: 90%;    
     
 }
+
 .hrst {
     border:  black;
     width: 60%;

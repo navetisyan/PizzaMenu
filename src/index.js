@@ -1,8 +1,8 @@
-import { renderFirstPage } from "./js/views/firstPage";
+import { renderFilterPage } from "./js/views/filter";
 import { renderMenuList }  from "./js/views/menuList";
 import router from "./js/routing";
 
-renderFirstPage();
+renderFilterPage ();
 
  
  

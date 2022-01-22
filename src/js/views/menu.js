@@ -1,8 +1,8 @@
-
+import {productMenuEventListeners} from "../helpers/eventListeners"
 export const renderMenuPage = () => {
     const wrapper = `<div class="pizza">
     <div class="cards">
-        <div class="card ">
+        <div class="card ingr">
             <div class="sec1">
                 <img src="./image/pizza1.png" alt="" class="imgpiz">
             </div>
@@ -65,4 +65,5 @@ export const renderMenuPage = () => {
     </div>
     `
     document.querySelector(".container1").innerHTML = wrapper;
+    productMenuEventListeners();
 }

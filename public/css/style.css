@@ -23,13 +23,20 @@
       display: flex;
       flex-direction: row;
       gap: 70px;
+      justify-content: space-between;
+
   }
   .filter1 {
 
       background-image: url(../image/color.jpg);
       color: aliceblue;
       width: 300px;
+      margin-left: 0px;
       
+    }
+    .filter1 p{
+        font-size: 30px;
+        letter-spacing: 5px;
     }
    
     h2{
@@ -43,7 +50,8 @@
         list-style-type: inherit;
         margin-left: 30px;
         margin-top: 50px;
-        line-height:150%
+        line-height:150%;
+        font-size: 20px;
         
     }
 

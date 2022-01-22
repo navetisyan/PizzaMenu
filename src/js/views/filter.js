@@ -1,9 +1,7 @@
-// import { pizza2.png } from "../../../public/image/pizza2"
 export const renderFilterPage = () => {
-    const filter = `<div class="container"><nav class="icon"><i class="fas fa-bars"></i></nav>
-    <div class="main">
+  const filter = `<div class="main">
     <div class="filter1">
-        <h2>Filter <i class="fal fa-times"></i></h2>
+        <p>Filter</p>
         <ol class="olfil" >
             <li>Sunk</li>
             <li>Popok</li>
@@ -58,7 +56,6 @@ export const renderFilterPage = () => {
             </div>
         </div>
     </div>
-  </div>
- </div>`
- document.querySelector(".container1").innerHTML = filter;
- }
+  </div>`;
+  document.querySelector(".container1").innerHTML = filter;
+};

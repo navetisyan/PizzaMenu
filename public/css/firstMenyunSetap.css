@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 @media screen and (max-width: 1200px) ,screen and(max-height: 720px){
     #container{
        max-width: 970px;
@@ -20,16 +17,6 @@
     }
     
  }
-
-
-
-.container1{
-    height: 700px ;
-    width: auto;
-    background-image: url(../image/connect_to_table.jpg);
-    background-repeat:round;
-    
-}
 
 
 #table{

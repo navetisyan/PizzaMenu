@@ -75,7 +75,7 @@
     flex-direction: column;
     border-radius: 20px 0 0 0;   
     
-   /* -webkit-clip-path: polygon(0 0, 0 100%, 100%, 100% 10%, 85% 0); */
+      -webkit-clip-path: polygon(0 0, 0 100%, 100%, 100% 10%, 85% 0); 
         clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 10%, 85% 0);
    
   }

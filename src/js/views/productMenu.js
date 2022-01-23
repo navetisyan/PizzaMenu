@@ -24,6 +24,6 @@ export const renderProductMenuPage = () => {
         </div>
     </div>
 </div>
-<footer class="fut"> <button id="text">Ավելացնել զամբյուղ</button> </footer>`
+<footer class="fut"> <button id="text btn-green">Ավելացնել զամբյուղ</button> </footer>`
       document.querySelector(".container1").innerHTML = product;
     }

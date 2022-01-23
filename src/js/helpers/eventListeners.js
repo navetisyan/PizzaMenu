@@ -4,7 +4,7 @@ import{renderMenuPage} from "../views/menu"
 import { renderProductMenuPage } from "../views/productMenu"
 export const registerEventListeners = () => {
     //aystex linelu e amragrel knopkayi clic ivente
-    document.querySelector('.btn-register').addEventListener("click", function(){
+    document.querySelector('.btn-green').addEventListener("click", function(){
         renderMenuList();
         })
         // document.querySelector('.').addEventListener("click", function(){

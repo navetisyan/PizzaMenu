@@ -12,10 +12,9 @@ export const renderFirstPage = () => {
                 <option value="8">8</option>
                 <option value="9">9</option>
             </select><br>
-            <button class="btn-register">Ամրագրել</button>
+            <button id="btn-green" class="btn-green">Ամրագրել</button>
             </div>
-            </div>
-    `
+            </div>`
     document.querySelector(".container1").innerHTML += wrapper;
     registerEventListeners();
 }

@@ -1,6 +1,7 @@
 import { registerEventListeners } from "../helpers/eventListeners";
 export const renderFirstPage = () => {
-    const wrapper = `<div class="table-container"><div class="table-child"> <select name="" id="table">
+    const wrapper = `<div  class="tableBack"><div class="table-child"> <select name="" id="table">
+   
                 <option value="notselected">Ընտրել Սեղանը</option> 
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -18,3 +19,4 @@ export const renderFirstPage = () => {
     document.querySelector(".container1").innerHTML += wrapper;
     registerEventListeners();
 }
+// style="background-image: url(./image/connect_to_table.jpg)" sra backgroundna chem karum dnem chi linum

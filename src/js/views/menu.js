@@ -21,7 +21,7 @@ export const renderMenuPage = () => {
                 </ol>
             </div>
         </div>
-        <div class="card">
+        <div class="card ingr">
             <div class="sec1">
                 <img src="./image/pizza2.png" alt="" class="imgpiz">
             </div>
@@ -40,7 +40,7 @@ export const renderMenuPage = () => {
                 </ol>
             </div>
         </div>
-        <div class="card">
+        <div class="card ingr">
             <div class="sec1">
                 <img src="./image/pizza3.png" alt="" class="imgpiz">
             </div>

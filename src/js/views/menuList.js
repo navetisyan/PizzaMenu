@@ -1,6 +1,9 @@
-import {menuListEventListeners} from "../helpers/eventListeners"
+import { menuListEventListeners } from "../helpers/eventListeners";
 export const renderMenuList = () => {
-    const wrapper = `<div class="menuList-container"><button class="btnIcon"><i class="fas fa-align-justify"></i></button>
+  const wrapper = `<div class="header-row">
+  <button class="btnIcon"><i class="fas fa-align-justify"></i></button>
+  </div>
+    <div class="menuList-container">
 
  <div class="yashik">
         <div class="cube food" > 
@@ -33,17 +36,17 @@ export const renderMenuList = () => {
                <p> Աղցաններ </p> 
             </div>
         </div>
-    </div>`
-    document.querySelector(".container1").innerHTML = wrapper;
-    menuListEventListeners();
+    </div>`;
+  document.querySelector(".container1").innerHTML = wrapper;
+  menuListEventListeners();
 
-// function openHidelogin() {
-//     let menyuHidden = document.querySelector(".btnIcon");
-//     const newLocal = menyuHidden.style.display;
-//     if (newLocal === '' || newLocal === 'none') {
-//         newLocal = 'block';
-//     } else {
-//         newLocal= 'none';
-//     };
-// };
- }
+  // function openHidelogin() {
+  //     let menyuHidden = document.querySelector(".btnIcon");
+  //     const newLocal = menyuHidden.style.display;
+  //     if (newLocal === '' || newLocal === 'none') {
+  //         newLocal = 'block';
+  //     } else {
+  //         newLocal= 'none';
+  //     };
+  // };
+};

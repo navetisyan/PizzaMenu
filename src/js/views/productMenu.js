@@ -1,5 +1,5 @@
 export const renderProductMenuPage = () => {
-    const product = `<div id="text" class="text">
+  const product = `<div id="text" class="text product-title">
     <h1>Պեպերոնի</h1>
 </div>
 <div class="main">
@@ -24,6 +24,6 @@ export const renderProductMenuPage = () => {
         </div>
     </div>
 </div>
-<footer class="fut"> <button id="text btn-green">Ավելացնել զամբյուղ</button> </footer>`
-      document.querySelector(".container1").innerHTML = product;
-    }
+<footer class="fut"> <button id="text btn-green">Ավելացնել զամբյուղ</button> </footer>`;
+  document.querySelector(".container1").innerHTML = product;
+};
